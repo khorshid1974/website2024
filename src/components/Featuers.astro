@@ -1,0 +1,29 @@
+---
+import Card from '../components/Card.astro'
+---
+<section class="features">
+    <div class="container">
+        <Card>
+            <h3>Zero JavaScript Runtime</h3>
+            <p>
+            Astro renders HTML on the server and strips away any remaining,
+            unused JavaScript.
+            </p>
+        </Card>
+        <Card>
+            <h3>The Power of Islands</h3>
+            <p>
+            Need interactive UI? Load individual, non-blocking component islands
+            in parallel.
+            </p>
+        </Card>
+        <Card>
+            <h3>Lazy-Loading Islands</h3>
+            <p>
+            Components only hydrate when they scroll into view. If you don't see
+            it, Astro won't load it.
+            </p>
+        </Card>
+    
+    </div>
+</section>
